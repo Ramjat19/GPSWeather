@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GPS Weather</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-2xl font-bold mb-4">Get Your Location</h1>
+    <p class="mb-4">Click the button below to find your location and Weather.</p>
+    <button 
+      id="getLocationBtn" 
+      class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+      Get Location and Weather
+    </button>
+    <div id="output" class="mt-4 text-sm text-gray-700"></div>
+    <div>
+      <h3 id="city-name">Canada, Ontario - Toronto</h3>
+      <h6 id="city-time">localtime</h6>
+      <p id="city-temp">13</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
